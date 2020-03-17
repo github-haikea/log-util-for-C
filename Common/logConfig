@@ -1,0 +1,29 @@
+## log level (DBG/INF/ERR/NONE)               
+## default level "ERR"
+LOG_LEVEL=DBG
+#LOG_LEVEL=INF
+#LOG_LEVEL=ERR
+#LOG_LEVEL=NONE
+
+## path, save log file 
+## default path "./haikea"
+LOG_PATH=./haikea
+
+## name, log file's name
+## default name "./haikea/haikea00.log"
+## max 16 byte
+LOG_NAME=haikea
+
+
+## size, one log file's max and default size =8092KB
+## min size = 1024KB
+LOG_FILE_SIZE=8192
+
+## number, log file max number 
+## defalut = 10
+## min = 5
+## max = 100 //后期改成根据日期来
+## example: haikea01.log  haikea02.log 
+LOG_FILE_MAX_NUM=10
+
+
